@@ -1,4 +1,4 @@
-package br.com.api.CadastroDeClientes.controller;
+package br.com.api.CadastroDeClientes.clientes.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

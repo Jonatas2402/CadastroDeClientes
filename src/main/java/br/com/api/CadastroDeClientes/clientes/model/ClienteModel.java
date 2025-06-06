@@ -1,6 +1,9 @@
-package br.com.api.CadastroDeClientes.model;
+package br.com.api.CadastroDeClientes.clientes.model;
 
+import br.com.api.CadastroDeClientes.produtos.model.ProdutosModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 //Entity transforma a classe em uma entidade do BD.
 @Entity
@@ -13,6 +16,7 @@ public class ClienteModel {
     private String nome;
     private String email;
     private int idade;
+    private List<ProdutosModel> produtos;
 
     public ClienteModel() {
     }
